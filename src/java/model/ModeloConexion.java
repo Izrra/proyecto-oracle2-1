@@ -16,5 +16,10 @@ public class ModeloConexion {
         Connection con = DriverManager.getConnection(url, login, password);
         return con;
     }
+
+    Connection conectarse() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     
 }
